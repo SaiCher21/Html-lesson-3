@@ -2,6 +2,8 @@
 
 :root {
     --primary-color:#7C3AED ;
+    --dark-grey:#6B7280;
+    --of-white:#F3F4F6;
 }
 
 body {
@@ -54,6 +56,8 @@ hr{
     padding:0rem 0.5rem;
 }
 
+/**navigation**/
+
 .navigation {
     background-color:var(--primary-color);
     color:white;
@@ -77,5 +81,40 @@ hr{
 
 .navigation .link-active {
     font-weight:bold;
-    text-decoration-line: none;
+}
+
+
+/** header**/
+
+.react{
+    padding:1rem;
+}
+
+.react .react-image{
+    max-width:400px;
+    display:block;
+    text-align:center;
+    margin:auto;
+}
+
+.react .react-heading{
+    text-align:center;
+    color:var(--dark-grey);
+}
+
+.react .react-heading .highlighted{
+    color: var(--primary-color);
+}
+
+.section{
+    padding:2rem;
+}
+
+.section h1{
+    text-align:center;
+}
+
+.ox{
+    background-color:var(--of-white);
+
 }
